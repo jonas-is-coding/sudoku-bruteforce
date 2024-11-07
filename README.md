@@ -11,7 +11,7 @@ This project implements a Sudoku solver via brute forcing in C++. The solver can
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/your-username/sudoku-solver.git
+git clone https://github.com/your-username/sudoku-solver.git
 ```
 2.	Navigate to the project directory:
 ```bash
