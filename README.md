@@ -2,6 +2,11 @@
 
 This project implements a Sudoku solver via brute forcing in C++. The solver can solve any given Sudoku puzzle, with varying difficulty levels.
 
+
+## Inspiration
+
+This project was inspired by a [YouTube Shorts video](https://www.youtube.com/watch?app=desktop&v=4c_16yiQBfI). Later, I wrote a [blog article](https://www.jonasbrahmst.me/blog/create-a-sudoku-bruteforcing-script-in-cpp) explaining how I implemented the solver and the steps I took to build it. Feel free to check out both resources for a more detailed explanation!
+
 ## Requirements
 
 - C++11 or later
