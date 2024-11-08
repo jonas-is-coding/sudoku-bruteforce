@@ -16,11 +16,11 @@ int main() {
         auto seconds = std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
         auto milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
         
-        std::cout << "Sudoku gelöst!" << std::endl;
-        std::cout << "Anzahl der Versuche: " << num_tries << std::endl;
-        std::cout << "Benötigte Zeit: " << minutes << " Minuten und "  << seconds << "," << milliseconds << " Sekunden" << std::endl;
+        std::cout << "Sudoku solved!" << std::endl;
+        std::cout << "Number of tries: " << num_tries << std::endl;
+        std::cout << "Time taken: " << minutes << " minutes and " << seconds << "," << milliseconds << " seconds" << std::endl;
     } else {
-        std::cout << "Keine Lösung gefunden." << std::endl;
+        std::cout << "No solution found." << std::endl;
     }
 
     return 0;
